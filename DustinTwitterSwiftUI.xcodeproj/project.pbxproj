@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA823B7F259347810069F837 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA823B7E259347810069F837 /* FeedView.swift */; };
 		DA88A0CF258F67ED004CA355 /* DustinTwitterSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA88A0CE258F67ED004CA355 /* DustinTwitterSwiftUIApp.swift */; };
 		DA88A0D1258F67ED004CA355 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA88A0D0258F67ED004CA355 /* ContentView.swift */; };
 		DA88A0D3258F67ED004CA355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA88A0D2258F67ED004CA355 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA823B7E259347810069F837 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		DA88A0CB258F67ED004CA355 /* DustinTwitterSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DustinTwitterSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA88A0CE258F67ED004CA355 /* DustinTwitterSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DustinTwitterSwiftUIApp.swift; sourceTree = "<group>"; };
 		DA88A0D0258F67ED004CA355 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA823B7B2593473B0069F837 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA823B7C259347440069F837 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA88A0D0258F67ED004CA355 /* ContentView.swift */,
+				DA823B7E259347810069F837 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA823B7D259347490069F837 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
 		DA88A0C2258F67ED004CA355 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +77,10 @@
 		DA88A0CD258F67ED004CA355 /* DustinTwitterSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DA823B7D259347490069F837 /* VIewModel */,
+				DA823B7C259347440069F837 /* View */,
+				DA823B7B2593473B0069F837 /* Model */,
 				DA88A0CE258F67ED004CA355 /* DustinTwitterSwiftUIApp.swift */,
-				DA88A0D0258F67ED004CA355 /* ContentView.swift */,
 				DA88A0D2258F67ED004CA355 /* Assets.xcassets */,
 				DA88A0D7258F67ED004CA355 /* Info.plist */,
 				DA88A0D4258F67ED004CA355 /* Preview Content */,
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA88A0D1258F67ED004CA355 /* ContentView.swift in Sources */,
+				DA823B7F259347810069F837 /* FeedView.swift in Sources */,
 				DA88A0CF258F67ED004CA355 /* DustinTwitterSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
