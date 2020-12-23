@@ -12,7 +12,11 @@ struct FeedView: View {
         ZStack(alignment: .bottomTrailing) {
             //스크롤뷰 아래 버튼을 넣어서 아래에 들어감
             ScrollView {
-                
+                LazyVStack {
+                    ForEach(0..<100) { _ in
+                        TweetCell()
+                    }
+                }.padding()
             }
 
             Button(action: {}, label : {
